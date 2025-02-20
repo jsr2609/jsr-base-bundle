@@ -1,6 +1,6 @@
 {
     "type": "symfony-bundle",
-    "name": "JSRBaseBundle",
+    "name": "jsr/base-bundle",
     "description": "JSRBaseBundle",
     "license": "MIT",
     "minimum-stability": "stable",
