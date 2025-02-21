@@ -11,7 +11,7 @@ use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-#[AsCommand(name:'app:create-views')]
+#[AsCommand(name:'jsr:create-views')]
 class CreateViewsCommand extends Command
 {
     private $entityManager;
