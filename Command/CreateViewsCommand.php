@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Command;
+namespace JSR\BaseBundle\Command;
 
 use Symfony\Component\Finder\Finder;
 use Doctrine\ORM\EntityManagerInterface;
