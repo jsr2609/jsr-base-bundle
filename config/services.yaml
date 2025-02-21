@@ -6,5 +6,7 @@
 parameters:
 
 services:
-    JSR\BaseBundle\Command\DropViewsCommand:
+    jsr.console.command.drop_views:
+        class: JSR\BaseBundle\Command\DropViewsCommand
+        public: true
         tags: ['console.command']
