@@ -8,7 +8,6 @@ parameters:
 services:
     jsr.console.command.drop_views:
         class: JSR\BaseBundle\Command\DropViewsCommand
-        public: true
         tags:
             - name: 'console.command'
         arguments:
