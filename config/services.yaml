@@ -9,4 +9,7 @@ services:
     jsr.console.command.drop_views:
         class: JSR\BaseBundle\Command\DropViewsCommand
         public: true
-        tags: ['console.command']
+        tags:
+            - name: 'console.command'
+        arguments:
+            - '@doctrine.orm.entity_manager'
